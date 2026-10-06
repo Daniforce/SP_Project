@@ -1,0 +1,1 @@
+Este file serve para irmos escrevendo o relatório ao longo da realização do trabalho. Para cada ponto realizado na checklist, faça a análise correspondente aqui. Desta forma, no final do assignement é só retirar as informações daqui para completar o relatório. 
