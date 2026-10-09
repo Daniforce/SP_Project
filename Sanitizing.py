@@ -20,7 +20,7 @@ df.to_csv("limited_data.csv", index=False)  # salva o dataset
 #--------------------------------------------------------------
 
 #------------------SECÇÃO RESPONSAVEL PELA RESOLUCAO DE DADOS EM FALTA NO DATASET--------------------------------------
-
+"""
 df = pd.read_csv("limited_data.csv")
 
 col_num = df.shape[1]  # número de colunas do dataset
@@ -30,6 +30,15 @@ for i in range(col_num):
         if (df.iloc[j,i] == '?'):  # verifica se o valor da célula é igual a '?'
             df.iloc[j,i] = df.iloc[j-1,i] # substitui o valor da célula pelo valor anterior
 
+df.to_csv("limited_data.csv", index=False)  # salva o dataset
+"""
+#--------------------------------------------------------------
+
+#------------------SECÇÃO RESPONSAVEL PELA RESOLUCAO DE DADOS EM FALTA NO DATASET--------------------------------------
+
+df = pd.read_csv("dataset.csv")
+
 df = df.drop_duplicates() # Evita duplicados
 
 df.to_csv("limited_data.csv", index=False)  # salva o dataset
+#--------------------------------------------------------------
