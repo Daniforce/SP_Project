@@ -30,4 +30,6 @@ for i in range(col_num):
         if (df.iloc[j,i] == '?'):  # verifica se o valor da célula é igual a '?'
             df.iloc[j,i] = df.iloc[j-1,i] # substitui o valor da célula pelo valor anterior
 
+df = df.drop_duplicates() # Evita duplicados
+
 df.to_csv("limited_data.csv", index=False)  # salva o dataset
