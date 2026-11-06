@@ -7,7 +7,7 @@ import pandas as pd
 if __name__ == "__main__":
     df = pd.read_csv("Dataset.csv")  
 
-    start = 1
+    start = 0
     sizes = [5000, 7500, 10000, 12500, 15000]  # Tamanhos únicos para cada par
 
 
