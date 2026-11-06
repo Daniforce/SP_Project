@@ -1,0 +1,6 @@
+Par,Protocolo,Ficheiro A,Ficheiro B,Tempo Médio (s),Elementos Comuns
+0,0,Dataset_0_A.csv,Dataset_0_B.csv,0.1712,10506
+1,0,Dataset_1_A.csv,Dataset_1_B.csv,0.1818,15756
+2,0,Dataset_2_A.csv,Dataset_2_B.csv,0.1991,21006
+3,0,Dataset_3_A.csv,Dataset_3_B.csv,0.2164,26256
+4,0,Dataset_4_A.csv,Dataset_4_B.csv,0.2296,31506
