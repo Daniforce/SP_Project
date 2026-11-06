@@ -8,7 +8,7 @@ if __name__ == "__main__":
     df = pd.read_csv("Dataset.csv")  
 
     start = 1
-    sizes = [5000, 10000, 15000, 20000, 25000]  # Tamanhos únicos para cada par
+    sizes = [5000, 7500, 10000, 12500, 15000]  # Tamanhos únicos para cada par
 
 
     for i in range(5):
